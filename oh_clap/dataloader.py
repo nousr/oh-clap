@@ -14,6 +14,7 @@ class CLAPLoader(wds.WebLoader):
 
     Adapted from: [audio-data-pytorch](github.com/archinetai/audio-data-pytorch)
     """
+
     def __init__(
         self,
         urls: Union[str, Sequence[str]],

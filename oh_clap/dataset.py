@@ -1,5 +1,6 @@
+from typing import Callable, Optional, Sequence, Union
+
 import webdataset as wds
-from typing import Union, Sequence, Optional, Callable
 from oh_clap.helpers import exists
 from oh_clap.processing import crop_audio
 

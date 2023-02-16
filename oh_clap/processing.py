@@ -1,7 +1,9 @@
-import webdataset as wds
-from typing import Optional, List
-from oh_clap.helpers import default
+from typing import List, Optional
+
 import torch
+import webdataset as wds
+from oh_clap.helpers import default
+
 
 def crop_and_pad(
     tensor: torch.Tensor,
