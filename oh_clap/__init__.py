@@ -1,2 +1,2 @@
-from dataset import CLAPDataset
-from dataloader import CLAPLoader
+from oh_clap.dataset import CLAPDataset
+from oh_clap.dataloader import CLAPLoader
